@@ -7,10 +7,7 @@
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-**Note:** Replace ```Muhamed Didovic``` ```muhamed-didovic``` ```https://github.com/muhamed-didovic``` ```muhamed.didovic@gmail.com``` ```muhamed-didovic``` ```csrf``` ```Protect your application from cross-site request forgery (CSRF) attacks``` with their correct values in [README.md](README.md), [CHANGELOG.md](CHANGELOG.md), [CONTRIBUTING.md](CONTRIBUTING.md), [LICENSE.md](LICENSE.md) and [composer.json](composer.json) files, then delete this line. You can run `$ php prefill.php` in the command line to make all replacements at once. Delete the file prefill.php as well.
-
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what
-PSRs you support to avoid any confusion with users and contributors.
+Protect your application from cross-site request forgery (CSRF) attacks
 
 ## Structure
 
@@ -61,6 +58,7 @@ If you discover any security related issues, please email muhamed.didovic@gmail.
 ## Credits
 
 - [Muhamed Didovic][link-author]
+- [Goran Radosevic][link-author2]
 - [All Contributors][link-contributors]
 
 ## License
@@ -80,4 +78,5 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [link-code-quality]: https://scrutinizer-ci.com/g/muhamed-didovic/csrf
 [link-downloads]: https://packagist.org/packages/muhamed-didovic/csrf
 [link-author]: https://github.com/muhamed-didovic
+[link-author2]: https://github.com/gradosevic
 [link-contributors]: ../../contributors
