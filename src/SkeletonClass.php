@@ -1,8 +1,6 @@
 <?php
 
-declare(strict_types=1);
-
-namespace muhamed-didovic\csrf;
+namespace MuhamedDidovic\Csrf;
 
 class SkeletonClass
 {
@@ -21,7 +19,7 @@ class SkeletonClass
      *
      * @return string Returns the phrase passed in
      */
-    public function echoPhrase(string $phrase): string
+    public function echoPhrase($phrase)
     {
         return $phrase;
     }
