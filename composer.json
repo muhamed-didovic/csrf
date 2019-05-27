@@ -21,26 +21,26 @@
         }
     ],
     "require": {
-        "illuminate/container": "5.4.*",
-        "illuminate/contracts": "5.4.*",
+        "illuminate/auth": "5.4.*",
+        "illuminate/broadcasting": "5.4.*",
         "illuminate/cache": "5.4.*",
         "illuminate/config": "5.4.*",
-        "illuminate/support": "5.4.*",
+        "illuminate/container": "5.4.*",
+        "illuminate/contracts": "5.4.*",
+        "illuminate/cookie": "5.4.*",
         "illuminate/encryption": "5.4.*",
+        "illuminate/events": "5.4.*",
         "illuminate/hashing": "5.4.*",
+        "illuminate/log": "5.4.*",
         "illuminate/mail": "5.4.*",
         "illuminate/notifications": "5.4.*",
         "illuminate/pagination": "5.4.*",
         "illuminate/redis": "5.4.*",
+        "illuminate/routing": "5.4.*",
+        "illuminate/support": "5.4.*",
         "illuminate/translation": "5.4.*",
         "illuminate/validation": "5.4.*",
         "illuminate/view": "5.4.*",
-        "illuminate/events": "5.4.*",
-        "illuminate/log": "5.4.*",
-        "illuminate/auth": "5.4.*",
-        "illuminate/broadcasting": "5.4.*",
-        "illuminate/routing": "5.4.*",
-        "illuminate/cookie": "5.4.*",
         "larapack/dd": "1.*",
         "nesbot/carbon": "^1.37"
     },
@@ -51,16 +51,14 @@
     },
     "autoload": {
         "files": [
-            "vendor/Illuminate/Support/helpers.php"
+            "src/helpers.php"
         ],
         "psr-4": {
             "MuhamedDidovic\\Csrf\\": "src"
         }
     },
     "autoload-dev": {
-        "files": [
-            "tests/helpers.php"
-        ],
+
         "psr-4": {
             "MuhamedDidovic\\Tests\\": "tests",
             "Illuminate\\Foundation\\": "tests"
