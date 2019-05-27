@@ -8,14 +8,12 @@ class VerifyCsrfTokenExceptStub extends VerifyCsrfToken
 {
     public function checkInExceptArray($request)
     {
-        //dd(22, $this->except);
         return $this->inExceptArray($request);
     }
     
     public function setExcept(array $except)
     {
         $this->except = $except;
-        //dd($this->except);
         return $this;
     }
     

@@ -58,7 +58,6 @@
         }
     },
     "autoload-dev": {
-
         "psr-4": {
             "MuhamedDidovic\\Tests\\": "tests",
             "Illuminate\\Foundation\\": "tests"
