@@ -33,8 +33,8 @@ $ composer require muhamed-didovic/csrf
 ## Usage
 
 ``` php
-$skeleton = new muhamed-didovic\csrf();
-echo $skeleton->echoPhrase('Hello, League!');
+$csrf = new MuhamedDidovic\Csrf\Csrf();
+$csrf->check();
 ```
 
 ## Change log
